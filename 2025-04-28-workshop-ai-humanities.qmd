@@ -1,0 +1,158 @@
+---
+title: "Introduction to AI/ML/LLM for Humanities and Social Science"
+author: 
+    - "<b>Francesca Albrezzi</b><br/> falbrezzi@ucla.edu"
+    - "<b>Ryan Horne</b><br/> rmhorne@ucla.edu"
+format:
+ revealjs:
+  preview-links: true
+  logo: images/CC_BY-SA_icon.svg
+title-slide-attributes:
+ data-background-color: "#005c96"
+ data-background-size: 6%
+ data-background-position: 100% 100%   
+---
+
+## Agenda
+
+
+## Introduction to Neural Networks
+
+## Definition and Basic Concepts
+- Neural Networks, AI, and ML
+- [Glossary](https://aiforhumanists.com/glossary/)
+
+## Historical Development
+- Key milestones
+- Resources for further reading
+
+## Importance & Applications
+- Digital Humanities and North Campus disciplines
+- Current research and use cases at UCLA
+
+
+## Strengths and Limitations
+
+## What AI is Good At
+- Pattern recognition
+- Language processing
+- Image analysis
+
+## What AI is NOT Good At
+- In-depth analysis
+- Contextual understanding
+- Nuanced interpretation
+
+## GoFAI vs. Generative AI
+
+
+## Large Language Models (LLMs)
+
+## Overview
+- Key components (Transformers, Attention Mechanisms)
+- Training processes and dataset types
+
+## Popular LLMs
+- GPT-3, BERT
+
+## Applications in Digital Humanities
+- Text analysis, translation, content generation
+- Case Study: [Literary Event Detection](https://arxiv.org/abs/1912.01140)
+
+
+## How LLMs Can Help
+
+## Use Cases
+- Brainstorming and outlining
+- Prompt engineering for better AI responses
+
+## Demos
+- Outline an AI presentation
+- AI-assisted code generation
+- Pleiades to Neo4j workflows
+- NLP Twitter / Bluesky data
+
+## Issues
+- Generated essays & ghost citations
+- Ethical concerns
+
+
+## Large Vision Models (LVMs) & Vision Language Models (VLMs)
+
+## Overview
+- Convolutional Neural Networks (CNNs)
+- Generative Adversarial Networks (GANs)
+
+## Popular Models
+- DALL-E, CLIP
+
+## Applications in Digital Humanities
+- Image recognition & artwork restoration
+- Example: [Leonardo Impett’s work](https://dahj.org/article/imgsai)
+
+## How AI "Sees"
+- Handwriting analysis
+- Case Study: Alexander Hamilton & George Washington Papers ([HAT tool](https://www.csmc.uni-hamburg.de/publications/software/hat.html))
+
+
+
+## Future of AI & ML in Digital Humanities
+
+## Fine-Tuning AI for Humanities Research
+- Domain expertise in model refinement
+- Example: Human Pose Estimation (Bernasconi et al., 2023)
+
+## Technical Barriers
+- AI-assisted tools like Microsoft's Co-Pilot
+- Accessibility and skill development
+
+
+## Open vs. Closed AI
+
+## Key Definitions
+- Open AI (e.g., open-source models)
+- Closed AI (e.g., proprietary systems)
+
+## Implications
+- Innovation, accessibility, and security concerns
+- [Ollama: Local AI](https://ollama.com/)
+- Retrieval-Augmented Generation (RAG)
+
+## Ethical & Privacy Concerns
+- AI decision-making in banking, housing, credit
+
+---
+
+## Ethical Concerns
+
+## Trust & Authenticity
+- AI’s role in misinformation/disinformation
+- Deepfakes & synthetic media
+- Detection & prevention strategies
+
+## Bias & Fairness
+- Algorithmic bias (Joy Buolamwini's research)
+- Mitigation strategies & ethical data collection
+
+## Academic Integrity
+- AI-generated content accuracy
+- Copyright & ownership debates
+
+
+
+## Future Directions & Trends
+
+## Emerging Technologies
+- Advances in neural networks
+- AI’s evolving role in Digital Humanities
+
+## Ethical AI at UCLA
+- [Chris Mattmann’s AI Resources](https://adminvc.ucla.edu/blog/artificial-intelligence-faqs)
+- [Generative AI at UCLA](https://it.ucla.edu/news/new-resource-generative-ai-ucla)
+
+## Further Learning
+- Courses, articles, and bibliography
+
+
+## Discussion & Questions
+
