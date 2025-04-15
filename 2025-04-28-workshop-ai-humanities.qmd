@@ -13,27 +13,33 @@ title-slide-attributes:
  data-background-size: 6%
  data-background-position: 100% 100%   
 ---
+
 ## Introductions
 Hello! 👋
 
 :::: {.columns}
 
 ::: {.column width="50%"}
+
 Francesca Albrezzi, PhD
+
 - Digital Research Manager and Specialist in OARC 
 - Taught for DH and World Arts & Cultures/Dance (WACD)
 - Editor-in-Chief and Director of the virtual gallery for the International Journal of Digital Art History 
 - UC Women in Tech Committee Member
 - Expertise in Extended Reality (XR) Technologies
+
 :::
 
 ::: {.column width="50%"}
+
 Ryan Horne, PhD
+
 - 
+
 :::
 
 ::::
-
 
 ## Agenda
 welcome
