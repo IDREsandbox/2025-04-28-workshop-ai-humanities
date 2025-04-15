@@ -36,7 +36,6 @@ Ryan Horne, PhD
 
 ## Agenda
 welcome
-
 ::: {.notes}
 Speaker notes go here.
 :::
