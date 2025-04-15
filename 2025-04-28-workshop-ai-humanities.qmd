@@ -6,7 +6,8 @@ author:
 format:
  revealjs:
   preview-links: true
-  logo: images/CC_BY-SA_icon.svg
+  logo: https://raw.githubusercontent.com/rmhorne/work-images/ed53108a33ec6274cff3dd8c06aad26405ef7645/images/creative-commons/cc-by-sa.svg
+  theme: [default, styles.scss]
 title-slide-attributes:
  data-background-color: "#005c96"
  data-background-size: 6%
