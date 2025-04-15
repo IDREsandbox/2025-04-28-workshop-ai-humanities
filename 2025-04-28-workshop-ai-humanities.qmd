@@ -12,9 +12,31 @@ title-slide-attributes:
  data-background-size: 6%
  data-background-position: 100% 100%   
 ---
+## Introductions
+Hello! 👋
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Francesca Albrezzi, PhD
+- Digital Research Manager and Specialist in OARC 
+- Taught for DH and World Arts & Cultures/Dance (WACD)
+- Editor-in-Chief and Director of the virtual gallery for the International Journal of Digital Art History 
+- UC Women in Tech Committee Member
+- Expertise in Extended Reality (XR) Technologies
+:::
+
+::: {.column width="50%"}
+Ryan Horne, PhD
+- 
+:::
+
+::::
+
 
 ## Agenda
 welcome
+
 ::: {.notes}
 Speaker notes go here.
 :::
@@ -82,23 +104,38 @@ Speaker notes go here.
 
 
 ## Large Vision Models (LVMs) & Vision Language Models (VLMs)
+Large Vision Models (LVMs) / Large Image Models:
+- AI systems designed to analyze visual data (images, videos).
+- Trained on vast datasets of images/videos.
+- Applications: Image classification, object detection, image segmentation, image generation, scene interpretation.
+Vision Language Models (VLMs):
+- Combine LVM capabilities with Natural Language Processing (NLP).
+- Applications: Creating text descriptions for images, answering questions about visual data, generating images from text prompts.
+Case Study: The Living Museum App https://www.livingmuseum.app/
 
-## Overview
-- Convolutional Neural Networks (CNNs)
-- Generative Adversarial Networks (GANs)
-
-## Popular Models
-- DALL-E, CLIP
-
-## Applications in Digital Humanities
-- Image recognition & artwork restoration
-- Example: [Leonardo Impett’s work](https://dahj.org/article/imgsai)
+ ::: {.notes}
+Large Vision Models (LVMs), also known as large image models, are AI systems that are designed to analyze visual data. Trained with large image or video datasets, LVMs are used in image classification, object detection, image segmentation, image generation, and scene interpretation. Another AI system that is applicable to visual resource research are Vision Language Models (VLMs), which combine NLP with LVMs to create textual descriptions for images, answer questions about visual data or create visual data based on text inputs. For example, Jonathan Talmi’s Living Museum app (https://www.livingmuseum.app/) uses Generative AI to allow users to have “conversations” with the objects in the British Museum’s online collection (Museums + Heritage Advisor, 2024). In The Living Museum app (https://www.livingmuseum.app/), the model is not constrained to the British museum's archival metadata or a specific curator's comments, but draws on outside sources to respond to wide questions about culture, history, and artistic process and practice. If we are not aware of all the sources of information that the AI’s answers are being drawn from, how is the user expected to assess the validity of the information as well as weight contextual positioning of the information? Does authorship of information matter in this context? Why or why not? What issues arise when AI becomes the voice for a museum object? Pick an object and ask it questions. What can the AI “see” and what does it miss? 
+:::
 
 ## How AI "Sees"
-- Handwriting analysis
-- Case Study: Alexander Hamilton & George Washington Papers ([HAT tool](https://www.csmc.uni-hamburg.de/publications/software/hat.html))
+Example: Handwriting Analysis with AI
+- AI Model: e.g., Siamese Convolutional Neural Network (CNN).
+Process:
+- Feature Identification: Focuses on key elements of handwriting style.
+- Abstraction: Generates abstract numerical representations (feature vectors) for these significant elements.
+- Comparison: Measures the similarity or difference between these numerical representations from different handwriting samples (calculating the magnitude of difference).
+- Learning: Converts images into a numerical network, assigning varying values (weights) to different features, effectively learning to distinguish individual writing styles.
+Source: Du, William, Michael Fang and Margaret Shen. 2017. “Siamese Convolutional Neural Networks for Authorship Verification.” http://cs231n.stanford.edu/reports/2017/pdfs/801.pdf.
 
+ ::: {.notes}
+But how does a computer “see”? Deep machine learning for visual material often operates by identifying the most important features or most uniquely characteristic features of the visual material. If you wanted to do a handwriting analysis, the AI network—e.g., a Siamese Convolutional Neural Network (CNN)—would focus on identifying the most important features of handwriting, generating abstract features as a numerical representation of those elements it deemed significant. By essentially measuring the similarity or difference of those repeating features, the network can calculate the magnitude of differences between handwriting samples. Through a process of converting images to a numerical network, the model assigned varying values to different features, effectively learning to distinguish between individual writing styles (Du et. al, 2017). Akrish Adhikari recently presented here at UCLA on how determining whose penmanship is present in a particular document can determine authorship. In addition, there is a distinction between the act of thinking and the physical act of writing, which can underscore the significant labor of editors and transcriptionists, whose contributions profoundly shape our understanding of authorship. Marginalia is an important part of literary history and knowing who made what suggested edit can help us better understand the influence of thought on a particular piece of writing. 
+:::
 
+## Handwriting Analysis Tool (HAT) 
+ [Handwriting Analysis Tool (HAT)](https://www.csmc.uni-hamburg.de/publications/software/hat.html)
+Case Study: Alexander Hamilton & George Washington Papers 
+- https://www.loc.gov/collections/george-washington-papers/about-this-collection/ 
+- https://www.loc.gov/collections/alexander-hamilton-papers/about-this-collection/ 
 
 ## Future of AI & ML in Digital Humanities
 
