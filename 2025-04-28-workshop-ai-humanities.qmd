@@ -38,6 +38,20 @@ Ryan Horne, PhD
 
 ## Agenda
 
+## What AI is Good At
+- Pattern recognition
+- Language processing
+- Image analysis
+
+## What AI is NOT Good At
+- In-depth analysis
+- Contextual understanding
+- Nuanced interpretation
+
+## Current State of AI @ UCLA
+- [AI FAQs](https://adminvc.ucla.edu/blog/artificial-intelligence-faqs)
+- [Chris Mattmann - Chief Data and Artificial Intelligence Officer](https://adminvc.ucla.edu/people/chris-mattmann)
+- [IT services has a page on ethical services of AI] (https://it.ucla.edu/news/new-resource-generative-ai-ucla)
 
 ## Classification of AI Systems
 
