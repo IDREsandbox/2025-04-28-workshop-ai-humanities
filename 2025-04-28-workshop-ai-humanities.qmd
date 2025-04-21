@@ -53,25 +53,36 @@ Speaker notes go here.
 ::: {.columns}
 
 ::: {.column width="33%"}
-**Artificial Narrow Intelligence**
+[**Artificial Narrow Intelligence**]{.section-1} 
 
+:::: incremental
 - perform a narrow task with an assigned data set or  
 - operate within certain specified parameters  
 - Google Translate, Siri, and Alexa  
+
+::::
 :::
 
 ::: {.column width="33%"}
-**Artificial General Intelligence**
+[**Artificial General Intelligence**]{.section-2}
+
+
+:::: incremental
 
 - expected to learn and reason with without human intervention  
 - same cognativbe level as humans  
+
+:::: 
 :::
 
 ::: {.column width="33%"}
-**Artificial Super Intelligence**
+[**Artificial Super Intelligence**]{.section-3}
 
+:::: incremental
 - Far surpasses human abilities  
 - singularity  
+
+:::: 
 :::
 
 :::
