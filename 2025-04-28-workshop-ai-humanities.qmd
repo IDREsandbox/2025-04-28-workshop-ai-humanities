@@ -121,12 +121,6 @@ A neural network is a computational model inspired by the human brain, designed 
 ![](images/nn2.svg)
 
 
-
-
-
-## Strengths and Limitations
-
-
 ## GoFAI vs. Generative AI
 
 ## Large Language Models (LLMs)
