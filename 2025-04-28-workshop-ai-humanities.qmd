@@ -47,6 +47,20 @@ welcome
 Speaker notes go here.
 :::
 
+## What AI is Good At
+- Pattern recognition
+- Language processing
+- Image analysis
+
+## What AI is NOT Good At
+- In-depth analysis
+- Contextual understanding
+- Nuanced interpretation
+
+## Current State of AI @ UCLA
+- [AI FAQs](https://adminvc.ucla.edu/blog/artificial-intelligence-faqs)
+- [Chris Mattmann - Chief Data and Artificial Intelligence Officer](https://adminvc.ucla.edu/people/chris-mattmann)
+- [IT services has a page on ethical services of AI] (https://it.ucla.edu/news/new-resource-generative-ai-ucla)
 
 ## Classification of AI Systems
 
@@ -64,7 +78,7 @@ Speaker notes go here.
 **Artificial General Intelligence**
 
 - expected to learn and reason with without human intervention  
-- same cognativbe level as humans  
+- same cognative level as humans  
 :::
 
 ::: {.column width="33%"}
@@ -222,16 +236,6 @@ draw_deep_neural_net()
 
 ## Strengths and Limitations
 
-## What AI is Good At
-- Pattern recognition
-- Language processing
-- Image analysis
-
-## What AI is NOT Good At
-- In-depth analysis
-- Contextual understanding
-- Nuanced interpretation
-
 ## GoFAI vs. Generative AI
 
 
@@ -267,38 +271,56 @@ draw_deep_neural_net()
 
 
 ## Large Vision Models (LVMs) & Vision Language Models (VLMs)
+
 Large Vision Models (LVMs) / Large Image Models:
+
 - AI systems designed to analyze visual data (images, videos).
 - Trained on vast datasets of images/videos.
 - Applications: Image classification, object detection, image segmentation, image generation, scene interpretation.
+
 Vision Language Models (VLMs):
+
 - Combine LVM capabilities with Natural Language Processing (NLP).
 - Applications: Creating text descriptions for images, answering questions about visual data, generating images from text prompts.
+
 Case Study: The Living Museum App https://www.livingmuseum.app/
 
  ::: {.notes}
 Large Vision Models (LVMs), also known as large image models, are AI systems that are designed to analyze visual data. Trained with large image or video datasets, LVMs are used in image classification, object detection, image segmentation, image generation, and scene interpretation. Another AI system that is applicable to visual resource research are Vision Language Models (VLMs), which combine NLP with LVMs to create textual descriptions for images, answer questions about visual data or create visual data based on text inputs. For example, Jonathan Talmi’s Living Museum app (https://www.livingmuseum.app/) uses Generative AI to allow users to have “conversations” with the objects in the British Museum’s online collection (Museums + Heritage Advisor, 2024). In The Living Museum app (https://www.livingmuseum.app/), the model is not constrained to the British museum's archival metadata or a specific curator's comments, but draws on outside sources to respond to wide questions about culture, history, and artistic process and practice. If we are not aware of all the sources of information that the AI’s answers are being drawn from, how is the user expected to assess the validity of the information as well as weight contextual positioning of the information? Does authorship of information matter in this context? Why or why not? What issues arise when AI becomes the voice for a museum object? Pick an object and ask it questions. What can the AI “see” and what does it miss? 
 :::
 
-## How AI "Sees"
+## How AI "Sees" {.smaller}
+
 Example: Handwriting Analysis with AI
+
 - AI Model: e.g., Siamese Convolutional Neural Network (CNN).
+
 Process:
+
+::: incremental
 - Feature Identification: Focuses on key elements of handwriting style.
 - Abstraction: Generates abstract numerical representations (feature vectors) for these significant elements.
 - Comparison: Measures the similarity or difference between these numerical representations from different handwriting samples (calculating the magnitude of difference).
 - Learning: Converts images into a numerical network, assigning varying values (weights) to different features, effectively learning to distinguish individual writing styles.
+
+:::
+
 Source: Du, William, Michael Fang and Margaret Shen. 2017. “Siamese Convolutional Neural Networks for Authorship Verification.” http://cs231n.stanford.edu/reports/2017/pdfs/801.pdf.
 
- ::: {.notes}
+::: {.notes}
+
 But how does a computer “see”? Deep machine learning for visual material often operates by identifying the most important features or most uniquely characteristic features of the visual material. If you wanted to do a handwriting analysis, the AI network—e.g., a Siamese Convolutional Neural Network (CNN)—would focus on identifying the most important features of handwriting, generating abstract features as a numerical representation of those elements it deemed significant. By essentially measuring the similarity or difference of those repeating features, the network can calculate the magnitude of differences between handwriting samples. Through a process of converting images to a numerical network, the model assigned varying values to different features, effectively learning to distinguish between individual writing styles (Du et. al, 2017). Akrish Adhikari recently presented here at UCLA on how determining whose penmanship is present in a particular document can determine authorship. In addition, there is a distinction between the act of thinking and the physical act of writing, which can underscore the significant labor of editors and transcriptionists, whose contributions profoundly shape our understanding of authorship. Marginalia is an important part of literary history and knowing who made what suggested edit can help us better understand the influence of thought on a particular piece of writing. 
+
 :::
 
 ## Handwriting Analysis Tool (HAT) 
+ 
  [Handwriting Analysis Tool (HAT)](https://www.csmc.uni-hamburg.de/publications/software/hat.html)
+
 Case Study: Alexander Hamilton & George Washington Papers 
-- https://www.loc.gov/collections/george-washington-papers/about-this-collection/ 
-- https://www.loc.gov/collections/alexander-hamilton-papers/about-this-collection/ 
+
+- [https://www.loc.gov/collections/george-washington-papers/about-this-collection/](https://www.loc.gov/collections/george-washington-papers/about-this-collection/) 
+- [https://www.loc.gov/collections/alexander-hamilton-papers/about-this-collection/](https://www.loc.gov/collections/alexander-hamilton-papers/about-this-collection/) 
 
 ## Future of AI & ML in Digital Humanities
 
@@ -312,6 +334,23 @@ Case Study: Alexander Hamilton & George Washington Papers
 
 
 ## Open vs. Closed AI
+
+<div class="infogram-embed" data-id="a7ce073b-00d7-4dbc-bbdd-2821226d7326" data-type="interactive" data-title="Openness AI"></div><script>!function(e,n,i,s){var d="InfogramEmbeds";var o=e.getElementsByTagName(n)[0];if(window[d]&&window[d].initialized)window[d].process&&window[d].process();else if(!e.getElementById(i)){var r=e.createElement(n);r.async=1,r.id=i,r.src=s,o.parentNode.insertBefore(r,o)}}(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");</script>
+
+- Innovation, accessibility, and security concerns
+- [Ollama: Local AI](https://ollama.com/)
+- Retrieval-Augmented Generation (RAG)
+
+Luna, Angela. "The Open or Closed AI Dilemma." Bipartisan Policy Center Blog, May 2, 2024, [https://bipartisanpolicy.org/blog/the-open-or-closed-ai-dilemma/](https://bipartisanpolicy.org/blog/the-open-or-closed-ai-dilemma/). Accessed March 6, 2025.
+
+South, Tobin, Jules Drean, Abhishek Singh, Guy Zyskind, Robert Mahari, Vivek Sharma, Praneeth Vepakomma, Lalana Kagal, Srinivas Devadas, and Alex Pentland. 2024. “A Roadmap for End-to-End Privacy and Security in Generative AI.” An MIT Exploration of Generative AI, September. [https://doi.org/10.21428/e4baedd9.9af67664](https://doi.org/10.21428/e4baedd9.9af67664). 
+
+::: {.notes}
+There are important ways an AI system can be opened or closed. We might think of it as a spectrum as this article and infovis by Angela Luna demonstrates (Luna 2024). The code for the model itself could be released open source where others can customize or contribute to it. Or it could be proprietary to a particular entity, meaning the code is only available to those with access and is protected under copyright. Models can be released for public use and still be closed, such as certain versions of ChatGPT. In these cases, users should not assume that any use of the model is private or protected in terms of their own intellectual property. Your data is being captured and processed on proprietary servers. Instead, you may choose to download and run an open-sourced LLM locally, using something like Ollama (https://ollama.com/), so that your data is not shared. 
+
+The AI system itself may also be designed to operate under more limited conditions. Imagine you just want to ask questions about a single set of documents and you only want answers that can be found directly in that data. AI knowledge retrieval systems, often using techniques like Retrieval-Augmented Generation (RAG), probe a single knowledge base (dataset) that the user defines, which increases output accuracy and contextual relevance. Rather than drawing on many different sources (e.g., a dataset that is akin to the whole of the internet), this approach limits the data scope and so the system can only respond based on the information that has been provided in the dataset. More secure systems are necessary when it comes to using AI/ML tools for sensitive or protected data (South et. al. 2024).
+
+:::
 
 ## Key Definitions
 - Open AI (e.g., open-source models)
