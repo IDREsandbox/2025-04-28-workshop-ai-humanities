@@ -221,55 +221,16 @@ The AI system itself may also be designed to operate under more limited conditio
 
 :::
 
-## Key Definitions
-
--   Open AI (e.g., open-source models)
--   Closed AI (e.g., proprietary systems)
-
-## Implications
-
--   Innovation, accessibility, and security concerns
--   [Ollama: Local AI](https://ollama.com/)
--   Retrieval-Augmented Generation (RAG)
-
-## Ethical & Privacy Concerns
-
--   AI decision-making in banking, housing, credit
-
-------------------------------------------------------------------------
-
-## Ethical Concerns
-
-## Trust & Authenticity
-
--   AI’s role in misinformation/disinformation
--   Deepfakes & synthetic media
--   Detection & prevention strategies
-
-## Bias & Fairness
-
--   Algorithmic bias (Joy Buolamwini's research)
--   Mitigation strategies & ethical data collection
-
-## Academic Integrity
-
--   AI-generated content accuracy
--   Copyright & ownership debates
-
-## Future Directions & Trends
-
-## Emerging Technologies
-
--   Advances in neural networks
--   AI’s evolving role in Digital Humanities
-
-## Ethical AI at UCLA
-
--   [Chris Mattmann’s AI Resources](https://adminvc.ucla.edu/blog/artificial-intelligence-faqs)
--   [Generative AI at UCLA](https://it.ucla.edu/news/new-resource-generative-ai-ucla)
-
 ## Further Learning
 
 -   Courses, articles, and bibliography
+
+## Follow-up Workshop
+
+-   Ethics and AI
+  -   Ethical Concerns: trust and authenticity
+  -   Bias and Fairness
+  -   Accuracy and Academic Integrity
+  -   Intellectual Property and Ownership
 
 ## Discussion & Questions
