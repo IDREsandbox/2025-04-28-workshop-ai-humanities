@@ -215,7 +215,7 @@ Case Study: Alexander Hamilton & George Washington Papers
 -   AI-assisted tools like Microsoft's Co-Pilot
 -   Accessibility and skill development
 
-## Open vs. Closed AI
+## Open vs. Closed AI {.smaller}
 
 <div class="infogram-embed" data-id="a7ce073b-00d7-4dbc-bbdd-2821226d7326" data-type="interactive" data-title="Openness AI"></div><script>!function(e,n,i,s){var d="InfogramEmbeds";var o=e.getElementsByTagName(n)[0];if(window[d]&&window[d].initialized)window[d].process&&window[d].process();else if(!e.getElementById(i)){var r=e.createElement(n);r.async=1,r.id=i,r.src=s,o.parentNode.insertBefore(r,o)}}(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");</script>
 
