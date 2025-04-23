@@ -48,10 +48,23 @@ Ryan Horne, PhD
 - Contextual understanding
 - Nuanced interpretation
 
+## Importance & Applications
+
+-   Digital Humanities and North Campus disciplines
+-   Current research and use cases at UCLA
+
+
 ## Current State of AI @ UCLA
 - [AI FAQs](https://adminvc.ucla.edu/blog/artificial-intelligence-faqs)
 - [Chris Mattmann - Chief Data and Artificial Intelligence Officer](https://adminvc.ucla.edu/people/chris-mattmann)
-- [IT services has a page on ethical services of AI] (https://it.ucla.edu/news/new-resource-generative-ai-ucla)
+- [IT services has a page on ethical services of AI](https://it.ucla.edu/news/new-resource-generative-ai-ucla)
+
+
+## Definition and Basic Concepts
+
+-   Neural Networks, AI, and ML
+-   [Glossary](https://aiforhumanists.com/glossary/)
+
 
 ## Classification of AI Systems
 
@@ -68,7 +81,8 @@ Ryan Horne, PhD
 :::
 
 ::: {.column width="33%"}
-**Artificial General Intelligence**{.section-2}
+
+[**Artificial General Intelligence**]{.section-2}
 
 - expected to learn and reason with without human intervention  
 - same cognativbe level as humans  
@@ -106,33 +120,6 @@ A neural network is a computational model inspired by the human brain, designed 
 
 ![](images/nn2.svg)
 
-
-## Definition and Basic Concepts
-
--   Neural Networks, AI, and ML
--   [Glossary](https://aiforhumanists.com/glossary/)
-
-## Historical Development
-
--   Key milestones
--   Resources for further reading
-
-## Importance & Applications
-
--   Digital Humanities and North Campus disciplines
--   Current research and use cases at UCLA
-
-## Strengths and Limitations
-
-## What AI is Good At
-- Pattern recognition
-- Language processing
-- Image analysis
-
-## What AI is NOT Good At
-- In-depth analysis
-- Contextual understanding
-- Nuanced interpretation
 
 ## GoFAI vs. Generative AI
 
