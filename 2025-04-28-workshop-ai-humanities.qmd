@@ -22,37 +22,54 @@ Hello! 👋
 ::: {.column width="50%"}
 Francesca Albrezzi, PhD
 
+::: incremental
 -   Digital Research Manager and Specialist in OARC
 -   Taught for DH and World Arts & Cultures/Dance (WACD)
 -   Editor-in-Chief and Director of the virtual gallery for the International Journal of Digital Art History
 -   UC Women in Tech Committee Member
 -   Expertise in Extended Reality (XR) Technologies
 :::
+:::
 
 ::: {.column width="50%"}
 Ryan Horne, PhD
 
--   
+::: incremental
+-   Digital Research Specialist in OARC
+-   Taught for DH here and at other universities
+-   Managing editor on Pleiades
+-   Involved with numerous LOD projects
+-   Expertise in GIS, Network Analysis, Linked Open Data
+:::
+
+   
 :::
 :::
 
 ## Agenda
 
 ## What AI is Good At
+
+::: incremental
 - Pattern recognition
 - Language processing
 - Image analysis
+:::
 
 ## What AI is NOT Good At
+
+::: incremental
 - In-depth analysis
 - Contextual understanding
 - Nuanced interpretation
+:::
 
 ## Importance & Applications
 
+::: incremental
 -   Digital Humanities and North Campus disciplines
 -   Current research and use cases at UCLA
-
+:::
 
 ## Current State of AI @ UCLA
 - [AI FAQs](https://adminvc.ucla.edu/blog/artificial-intelligence-faqs)
@@ -84,8 +101,11 @@ Ryan Horne, PhD
 
 [**Artificial General Intelligence**]{.section-2}
 
+::: incremental
 - expected to learn and reason with without human intervention  
 - same cognativbe level as humans  
+:::
+
 :::
 
 ::: {.column width="33%"}
@@ -95,6 +115,7 @@ Ryan Horne, PhD
 -   Far surpasses human abilities
 -   singularity
 :::
+
 :::
 :::
 
@@ -102,15 +123,100 @@ Ryan Horne, PhD
 
 ![](images/singularity.jpeg)
 
+
+## GoFAI vs. Generative AI
+
+::: columns
+::: {.column width="50%"}
+[GOFAI (good old fashion AI)]{.section-1}
+
+::: incremental
+
+-   used for large corpus analysis and image feature processing
+-   used in voice and facial recognition technologies
+-   traditional AI model learns by attempting to match newly input data to the labeled features in the training dataset
+-   work is time consuming, tedious, and usually requires domain expertise 
+-   typically designed for very specific tasks
+:::
+::: 
+
+
+::: {.column width="50%"}
+[Generative AI]{.section-2}
+
+::: incremental
+
+-  have the capacity for learning
+-  can learn your patterns and generate responses tailored to specific situations
+-  Product of Machine Learning
+:::
+
+
+:::
+:::
+
+## Machine Learning
+
+::: incremental
+
+- subset of AI technologies
+  - deep learning is a subset of that
+- aims to eliminate the tedium of creating and refining logical models in code
+- supervised and Unsupervised learning
+
+::: 
+
+
+## Learn ya something!
+
+::: columns
+::: {.column width="50%"}
+ [Supervised learning]{.section-1}
+
+::: incremental
+
+  - training dataset has target values for output
+  - trained by humans
+
+::: 
+
+:::
+
+::: {.column width="50%"}
+[Unsupervised learning]{.section-2}
+
+::: incremental
+
+  - identify patterns without pre-existing specifications
+  - make its own classifications
+  - cluster data points together that have common features
+  - reinforcement Learning
+    - goal of the system is described along with allowable actions and moves
+    - Model explores possibilities
+::: 
+
+
+:::
+:::
+
+
+
 ## Neural Network
 
 A neural network is a computational model inspired by the human brain, designed to recognize patterns and relationships in data.
 
--   Made up of layers of nodes (neurons).
--   Each neuron processes inputs and passes the result to the next layer.
--   Learns by adjusting weights through training
--   Used For
--   Image recognition, natural language processing, speech recognition, and more.
+::: incremental
+
+- Key components are *neurons*, *weights* and *biases*, *activation functions* and *layers*. 
+  -   Made up of layers of nodes (neurons).
+  -   Each neuron processes inputs and passes the result to the next layer (chosen by *activation functions*).
+  -   Learns by adjusting *weights* and *biases* through training
+- Used For
+  - Image recognition, natural language processing, speech recognition, and more.
+
+::: 
+
+
 
 ## Neural Net
 
@@ -120,15 +226,43 @@ A neural network is a computational model inspired by the human brain, designed 
 
 ![](images/nn2.svg)
 
+## Natural Language Processing (NLP)
 
-## GoFAI vs. Generative AI
+::: incremental
+
+- Uses machine and deep learning, nerual nets, supervised training
+- involves manual engineering, where linguistic features are extracted form a corpus and used as input
+  - Bag-of-Words, word embedding, SPAM detection, sentiment analysis, keywords detection and extraction, and topic modeling
+- Deep learning / nerual nets used for LLMs and chatbots
+
+::: 
+
 
 ## Large Language Models (LLMs)
 
-## Overview
+LLMs are AI applications that are designed and trained on Big Data corpora to parse, understand, and generate text that is similar to human usage and language
 
--   Key components (Transformers, Attention Mechanisms)
--   Training processes and dataset types
+::: incremental
+
+- generally based on deep learning and neural networks
+- Scale generally matters
+
+::: 
+
+
+## Large Language Models (LLMs)
+
+Training models
+
+::: incremental
+
+- involved and painstaking process
+- takes significant time, knowledge, and computational power
+- data must be annotated by humans
+- what kind of training is this?
+
+::: 
+
 
 ## Popular LLMs
 
@@ -139,7 +273,6 @@ A neural network is a computational model inspired by the human brain, designed 
 -   Text analysis, translation, content generation
 -   Case Study: [Literary Event Detection](https://arxiv.org/abs/1912.01140)
 
-## How LLMs Can Help
 
 ## Use Cases
 
