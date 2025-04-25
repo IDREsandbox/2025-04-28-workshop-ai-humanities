@@ -41,8 +41,6 @@ Ryan Horne, PhD
 -   Involved with numerous LOD projects
 -   Expertise in GIS, Network Analysis, Linked Open Data
 :::
-
-   
 :::
 :::
 
@@ -51,17 +49,17 @@ Ryan Horne, PhD
 ## What AI is Good At
 
 ::: incremental
-- Pattern recognition
-- Language processing
-- Image analysis
+-   Pattern recognition
+-   Language processing
+-   Image analysis
 :::
 
 ## What AI is NOT Good At
 
 ::: incremental
-- In-depth analysis
-- Contextual understanding
-- Nuanced interpretation
+-   In-depth analysis
+-   Contextual understanding
+-   Nuanced interpretation
 :::
 
 ## Importance & Applications
@@ -71,41 +69,37 @@ Ryan Horne, PhD
 -   Current research and use cases at UCLA
 :::
 
-## Current State of AI @ UCLA
-- [AI FAQs](https://adminvc.ucla.edu/blog/artificial-intelligence-faqs)
-- [Chris Mattmann - Chief Data and Artificial Intelligence Officer](https://adminvc.ucla.edu/people/chris-mattmann)
-- [IT services has a page on ethical services of AI](https://it.ucla.edu/news/new-resource-generative-ai-ucla)
+## Current State of AI \@ UCLA
 
+-   [AI FAQs](https://adminvc.ucla.edu/blog/artificial-intelligence-faqs)
+-   [Chris Mattmann - Chief Data and Artificial Intelligence Officer](https://adminvc.ucla.edu/people/chris-mattmann)
+-   [IT services has a page on ethical services of AI](https://it.ucla.edu/news/new-resource-generative-ai-ucla)
 
 ## Definition and Basic Concepts
 
 -   Neural Networks, AI, and ML
 -   [Glossary](https://aiforhumanists.com/glossary/)
 
-
 ## Classification of AI Systems
 
 ::: columns
 ::: {.column width="33%"}
-
 [**Artificial Narrow Intelligence**]{.section-1}
 
 ::: incremental
--   perform a narrow task with an assigned data set or\
--   operate within certain specified parameters\
+-   Perform a narrow task with an assigned data set
+-   Operate within certain specified parameters
 -   Google Translate, Siri, and Alexa
 :::
 :::
 
 ::: {.column width="33%"}
-
 [**Artificial General Intelligence**]{.section-2}
 
 ::: incremental
-- expected to learn and reason with without human intervention  
-- same cognativbe level as humans  
+-   Expected to learn and reason with without human intervention\
+-   Same cognitive level as humans\
 :::
-
 :::
 
 ::: {.column width="33%"}
@@ -115,14 +109,12 @@ Ryan Horne, PhD
 -   Far surpasses human abilities
 -   singularity
 :::
-
 :::
 :::
 
 ## Singulartiy
 
 ![](images/singularity.jpeg)
-
 
 ## GoFAI vs. Generative AI
 
@@ -131,92 +123,72 @@ Ryan Horne, PhD
 [GOFAI (good old fashion AI)]{.section-1}
 
 ::: incremental
-
--   used for large corpus analysis and image feature processing
--   used in voice and facial recognition technologies
--   traditional AI model learns by attempting to match newly input data to the labeled features in the training dataset
--   work is time consuming, tedious, and usually requires domain expertise 
--   typically designed for very specific tasks
+-   Used for large corpus analysis and image feature processing
+-   Used in voice and facial recognition technologies
+-   Traditional AI model learns by attempting to match newly input data to the labeled features in the training dataset
+-   Work is time consuming, tedious, and usually requires domain expertise
+-   Typically designed for very specific tasks
 :::
-::: 
-
+:::
 
 ::: {.column width="50%"}
 [Generative AI]{.section-2}
 
 ::: incremental
-
--  have the capacity for learning
--  can learn your patterns and generate responses tailored to specific situations
--  Product of Machine Learning
+-   Have the capacity for "learning"
+-   Can recognize your patterns and generate responses tailored to specific situations
+-   Product of Machine Learning
 :::
-
-
 :::
 :::
 
 ## Machine Learning
 
 ::: incremental
-
-- subset of AI technologies
-  - deep learning is a subset of that
-- aims to eliminate the tedium of creating and refining logical models in code
-- supervised and Unsupervised learning
-
-::: 
-
+-   Subset of AI technologies
+    -   Deep learning is a subset of that
+-   Aims to eliminate the tedium of creating and refining logical models in code
+-   Supervised and Unsupervised learning
+:::
 
 ## Learn ya something!
 
 ::: columns
 ::: {.column width="50%"}
- [Supervised learning]{.section-1}
+[Supervised learning]{.section-1}
 
 ::: incremental
-
-  - training dataset has target values for output
-  - trained by humans
-
-::: 
-
+-   Training dataset has target values for output
+-   Trained by humans
+:::
 :::
 
 ::: {.column width="50%"}
 [Unsupervised learning]{.section-2}
 
 ::: incremental
-
-  - identify patterns without pre-existing specifications
-  - make its own classifications
-  - cluster data points together that have common features
-  - reinforcement Learning
-    - goal of the system is described along with allowable actions and moves
-    - Model explores possibilities
-::: 
-
-
+-   Identify patterns without pre-existing specifications
+-   Make its own classifications
+-   Cluster data points together that have common features
+-   Reinforcement Learning
+    -   Goal of the system is described along with allowable actions and moves
+    -   Model explores possibilities
 :::
 :::
-
-
+:::
 
 ## Neural Network
 
 A neural network is a computational model inspired by the human brain, designed to recognize patterns and relationships in data.
 
 ::: incremental
-
-- Key components are *neurons*, *weights* and *biases*, *activation functions* and *layers*. 
-  -   Made up of layers of nodes (neurons).
-  -   Each neuron processes inputs and passes the result to the next layer (chosen by *activation functions*).
-  -   Learns by adjusting *weights* and *biases* through training
-- Used For
-  - Image recognition, natural language processing, speech recognition, and more.
-
-::: 
-
-
+-   Key components are *neurons*, *weights* and *biases*, *activation functions* and *layers*.
+    -   Made up of layers of nodes (neurons).
+    -   Each neuron processes inputs and passes the result to the next layer (chosen by *activation functions*).
+    -   Learns by adjusting *weights* and *biases* through training
+-   Used For
+    -   Image recognition, natural language processing, speech recognition, and more.
+:::
 
 ## Neural Net
 
@@ -229,40 +201,31 @@ A neural network is a computational model inspired by the human brain, designed 
 ## Natural Language Processing (NLP)
 
 ::: incremental
-
-- Uses machine and deep learning, nerual nets, supervised training
-- involves manual engineering, where linguistic features are extracted form a corpus and used as input
-  - Bag-of-Words, word embedding, SPAM detection, sentiment analysis, keywords detection and extraction, and topic modeling
-- Deep learning / nerual nets used for LLMs and chatbots
-
-::: 
-
+-   Uses machine and deep learning, neural nets, supervised training
+-   Involves manual engineering, where linguistic features are extracted form a corpus and used as input
+    -   Bag-of-Words, word embedding, SPAM detection, sentiment analysis, keywords detection and extraction, and topic modeling
+-   Deep learning / neural nets used for LLMs and chatbots
+:::
 
 ## Large Language Models (LLMs)
 
 LLMs are AI applications that are designed and trained on Big Data corpora to parse, understand, and generate text that is similar to human usage and language
 
 ::: incremental
-
-- generally based on deep learning and neural networks
-- Scale generally matters
-
-::: 
-
+-   Generally based on deep learning and neural networks
+-   Scale generally matters
+:::
 
 ## Large Language Models (LLMs)
 
 Training models
 
 ::: incremental
-
-- involved and painstaking process
-- takes significant time, knowledge, and computational power
-- data must be annotated by humans
-- what kind of training is this?
-
-::: 
-
+-   involved and painstaking process
+-   Takes significant time, knowledge, and computational power
+-   Data must be annotated by humans
+-   What kind of training is this?
+:::
 
 ## Popular LLMs
 
@@ -272,7 +235,6 @@ Training models
 
 -   Text analysis, translation, content generation
 -   Case Study: [Literary Event Detection](https://arxiv.org/abs/1912.01140)
-
 
 ## Use Cases
 
@@ -292,36 +254,20 @@ Training models
 -   Ethical concerns
 
 ## Large Vision Models (LVMs) & Vision Language Models (VLMs)
-Large Vision Models (LVMs) / Large Image Models:
-- AI systems designed to analyze visual data (images, videos).
-- Trained on vast datasets of images/videos.
-- Applications: Image classification, object detection, image segmentation, image generation, scene interpretation.
-Vision Language Models (VLMs):
-- Combine LVM capabilities with Natural Language Processing (NLP).
-- Applications: Creating text descriptions for images, answering questions about visual data, generating images from text prompts.
-Case Study: The Living Museum App https://www.livingmuseum.app/
+
+Large Vision Models (LVMs) / Large Image Models: - AI systems designed to analyze visual data (images, videos). - Trained on vast datasets of images/videos. - Applications: Image classification, object detection, image segmentation, image generation, scene interpretation. Vision Language Models (VLMs): - Combine LVM capabilities with Natural Language Processing (NLP). - Applications: Creating text descriptions for images, answering questions about visual data, generating images from text prompts. Case Study: The Living Museum App https://www.livingmuseum.app/
 
 ::: {.notes} Large Vision Models (LVMs), also known as large image models, are AI systems that are designed to analyze visual data. Trained with large image or video datasets, LVMs are used in image classification, object detection, image segmentation, image generation, and scene interpretation. Another AI system that is applicable to visual resource research are Vision Language Models (VLMs), which combine NLP with LVMs to create textual descriptions for images, answer questions about visual data or create visual data based on text inputs. For example, Jonathan Talmi’s Living Museum app (https://www.livingmuseum.app/) uses Generative AI to allow users to have “conversations” with the objects in the British Museum’s online collection (Museums + Heritage Advisor, 2024). In The Living Museum app (https://www.livingmuseum.app/), the model is not constrained to the British museum's archival metadata or a specific curator's comments, but draws on outside sources to respond to wide questions about culture, history, and artistic process and practice. If we are not aware of all the sources of information that the AI’s answers are being drawn from, how is the user expected to assess the validity of the information as well as weight contextual positioning of the information? Does authorship of information matter in this context? Why or why not? What issues arise when AI becomes the voice for a museum object? Pick an object and ask it questions. What can the AI “see” and what does it miss? :::
 
 ## How AI "Sees"
-Example: Handwriting Analysis with AI
-- AI Model: e.g., Siamese Convolutional Neural Network (CNN).
-Process:
-- Feature Identification: Focuses on key elements of handwriting style.
-- Abstraction: Generates abstract numerical representations (feature vectors) for these significant elements.
-- Comparison: Measures the similarity or difference between these numerical representations from different handwriting samples (calculating the magnitude of difference).
-- Learning: Converts images into a numerical network, assigning varying values (weights) to different features, effectively learning to distinguish individual writing styles.
-Source: Du, William, Michael Fang and Margaret Shen. 2017. “Siamese Convolutional Neural Networks for Authorship Verification.” http://cs231n.stanford.edu/reports/2017/pdfs/801.pdf.
 
- ::: {.notes}
-But how does a computer “see”? Deep machine learning for visual material often operates by identifying the most important features or most uniquely characteristic features of the visual material. If you wanted to do a handwriting analysis, the AI network—e.g., a Siamese Convolutional Neural Network (CNN)—would focus on identifying the most important features of handwriting, generating abstract features as a numerical representation of those elements it deemed significant. By essentially measuring the similarity or difference of those repeating features, the network can calculate the magnitude of differences between handwriting samples. Through a process of converting images to a numerical network, the model assigned varying values to different features, effectively learning to distinguish between individual writing styles (Du et. al, 2017). Akrish Adhikari recently presented here at UCLA on how determining whose penmanship is present in a particular document can determine authorship. In addition, there is a distinction between the act of thinking and the physical act of writing, which can underscore the significant labor of editors and transcriptionists, whose contributions profoundly shape our understanding of authorship. Marginalia is an important part of literary history and knowing who made what suggested edit can help us better understand the influence of thought on a particular piece of writing. 
-:::
+Example: Handwriting Analysis with AI - AI Model: e.g., Siamese Convolutional Neural Network (CNN). Process: - Feature Identification: Focuses on key elements of handwriting style. - Abstraction: Generates abstract numerical representations (feature vectors) for these significant elements. - Comparison: Measures the similarity or difference between these numerical representations from different handwriting samples (calculating the magnitude of difference). - Learning: Converts images into a numerical network, assigning varying values (weights) to different features, effectively learning to distinguish individual writing styles. Source: Du, William, Michael Fang and Margaret Shen. 2017. “Siamese Convolutional Neural Networks for Authorship Verification.” http://cs231n.stanford.edu/reports/2017/pdfs/801.pdf.
 
-## Handwriting Analysis Tool (HAT) 
- [Handwriting Analysis Tool (HAT)](https://www.csmc.uni-hamburg.de/publications/software/hat.html)
-Case Study: Alexander Hamilton & George Washington Papers 
-- https://www.loc.gov/collections/george-washington-papers/about-this-collection/ 
-- https://www.loc.gov/collections/alexander-hamilton-papers/about-this-collection/ 
+::: {.notes} But how does a computer “see”? Deep machine learning for visual material often operates by identifying the most important features or most uniquely characteristic features of the visual material. If you wanted to do a handwriting analysis, the AI network—e.g., a Siamese Convolutional Neural Network (CNN)—would focus on identifying the most important features of handwriting, generating abstract features as a numerical representation of those elements it deemed significant. By essentially measuring the similarity or difference of those repeating features, the network can calculate the magnitude of differences between handwriting samples. Through a process of converting images to a numerical network, the model assigned varying values to different features, effectively learning to distinguish between individual writing styles (Du et. al, 2017). Akrish Adhikari recently presented here at UCLA on how determining whose penmanship is present in a particular document can determine authorship. In addition, there is a distinction between the act of thinking and the physical act of writing, which can underscore the significant labor of editors and transcriptionists, whose contributions profoundly shape our understanding of authorship. Marginalia is an important part of literary history and knowing who made what suggested edit can help us better understand the influence of thought on a particular piece of writing. :::
+
+## Handwriting Analysis Tool (HAT)
+
+[Handwriting Analysis Tool (HAT)](https://www.csmc.uni-hamburg.de/publications/software/hat.html) Case Study: Alexander Hamilton & George Washington Papers - https://www.loc.gov/collections/george-washington-papers/about-this-collection/ - https://www.loc.gov/collections/alexander-hamilton-papers/about-this-collection/
 
 ## Future of AI & ML in Digital Humanities
 
@@ -337,21 +283,25 @@ Case Study: Alexander Hamilton & George Washington Papers
 
 ## Open vs. Closed AI {.smaller}
 
-<div class="infogram-embed" data-id="a7ce073b-00d7-4dbc-bbdd-2821226d7326" data-type="interactive" data-title="Openness AI"></div><script>!function(e,n,i,s){var d="InfogramEmbeds";var o=e.getElementsByTagName(n)[0];if(window[d]&&window[d].initialized)window[d].process&&window[d].process();else if(!e.getElementById(i)){var r=e.createElement(n);r.async=1,r.id=i,r.src=s,o.parentNode.insertBefore(r,o)}}(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");</script>
+::: {.infogram-embed data-id="a7ce073b-00d7-4dbc-bbdd-2821226d7326" data-type="interactive" data-title="Openness AI"}
+:::
 
-- Innovation, accessibility, and security concerns
-- [Ollama: Local AI](https://ollama.com/)
-- Retrieval-Augmented Generation (RAG)
+```{=html}
+<script>!function(e,n,i,s){var d="InfogramEmbeds";var o=e.getElementsByTagName(n)[0];if(window[d]&&window[d].initialized)window[d].process&&window[d].process();else if(!e.getElementById(i)){var r=e.createElement(n);r.async=1,r.id=i,r.src=s,o.parentNode.insertBefore(r,o)}}(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");</script>
+```
 
-Luna, Angela. "The Open or Closed AI Dilemma." Bipartisan Policy Center Blog, May 2, 2024, [https://bipartisanpolicy.org/blog/the-open-or-closed-ai-dilemma/](https://bipartisanpolicy.org/blog/the-open-or-closed-ai-dilemma/). Accessed March 6, 2025.
+-   Innovation, accessibility, and security concerns
+-   [Ollama: Local AI](https://ollama.com/)
+-   Retrieval-Augmented Generation (RAG)
 
-South, Tobin, Jules Drean, Abhishek Singh, Guy Zyskind, Robert Mahari, Vivek Sharma, Praneeth Vepakomma, Lalana Kagal, Srinivas Devadas, and Alex Pentland. 2024. “A Roadmap for End-to-End Privacy and Security in Generative AI.” An MIT Exploration of Generative AI, September. [https://doi.org/10.21428/e4baedd9.9af67664](https://doi.org/10.21428/e4baedd9.9af67664). 
+Luna, Angela. "The Open or Closed AI Dilemma." Bipartisan Policy Center Blog, May 2, 2024, <https://bipartisanpolicy.org/blog/the-open-or-closed-ai-dilemma/>. Accessed March 6, 2025.
 
-::: {.notes}
-There are important ways an AI system can be opened or closed. We might think of it as a spectrum as this article and infovis by Angela Luna demonstrates (Luna 2024). The code for the model itself could be released open source where others can customize or contribute to it. Or it could be proprietary to a particular entity, meaning the code is only available to those with access and is protected under copyright. Models can be released for public use and still be closed, such as certain versions of ChatGPT. In these cases, users should not assume that any use of the model is private or protected in terms of their own intellectual property. Your data is being captured and processed on proprietary servers. Instead, you may choose to download and run an open-sourced LLM locally, using something like Ollama (https://ollama.com/), so that your data is not shared. 
+South, Tobin, Jules Drean, Abhishek Singh, Guy Zyskind, Robert Mahari, Vivek Sharma, Praneeth Vepakomma, Lalana Kagal, Srinivas Devadas, and Alex Pentland. 2024. “A Roadmap for End-to-End Privacy and Security in Generative AI.” An MIT Exploration of Generative AI, September. <https://doi.org/10.21428/e4baedd9.9af67664>.
+
+::: notes
+There are important ways an AI system can be opened or closed. We might think of it as a spectrum as this article and infovis by Angela Luna demonstrates (Luna 2024). The code for the model itself could be released open source where others can customize or contribute to it. Or it could be proprietary to a particular entity, meaning the code is only available to those with access and is protected under copyright. Models can be released for public use and still be closed, such as certain versions of ChatGPT. In these cases, users should not assume that any use of the model is private or protected in terms of their own intellectual property. Your data is being captured and processed on proprietary servers. Instead, you may choose to download and run an open-sourced LLM locally, using something like Ollama (https://ollama.com/), so that your data is not shared.
 
 The AI system itself may also be designed to operate under more limited conditions. Imagine you just want to ask questions about a single set of documents and you only want answers that can be found directly in that data. AI knowledge retrieval systems, often using techniques like Retrieval-Augmented Generation (RAG), probe a single knowledge base (dataset) that the user defines, which increases output accuracy and contextual relevance. Rather than drawing on many different sources (e.g., a dataset that is akin to the whole of the internet), this approach limits the data scope and so the system can only respond based on the information that has been provided in the dataset. More secure systems are necessary when it comes to using AI/ML tools for sensitive or protected data (South et. al. 2024).
-
 :::
 
 ## Further Learning
@@ -361,9 +311,9 @@ The AI system itself may also be designed to operate under more limited conditio
 ## Follow-up Workshop
 
 -   Ethics and AI
-  -   Ethical Concerns: trust and authenticity
-  -   Bias and Fairness
-  -   Accuracy and Academic Integrity
-  -   Intellectual Property and Ownership
+-   Ethical Concerns: trust and authenticity
+-   Bias and Fairness
+-   Accuracy and Academic Integrity
+-   Intellectual Property and Ownership
 
 ## Discussion & Questions
